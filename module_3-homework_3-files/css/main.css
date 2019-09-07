@@ -1,4 +1,9 @@
-.container {
+nav {
   background: #f8df1f;
   width: 2000px;
+  padding: 10px;
+}
+li {
+  display: inline;
+  padding-right: 10px;
 }
