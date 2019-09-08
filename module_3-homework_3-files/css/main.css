@@ -1,9 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.button-style {
+  background: #f8df1f;
+  font-family: Roboto;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500px;
+}
+.headings {
+  font-size: 30px;
+  color: #080801;
+  text-transform: uppercase;
+}
+ul li span {
+  color: #ee252f;
+  text-transform: uppercase;
+  font-weight: 500;
+}
 nav {
   background: #f8df1f;
   width: 2000px;
   padding: 10px;
 }
-li {
+ul li {
   display: inline;
-  padding-right: 10px;
+  padding-right: 20px;
+  background: #f8df1f;
+  font-family: Roboto;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500px;
+}
+.logo {
+  position: absolute;
+  z-index: 1;
+  top: 80px;
+  left: 80px;
+}
+#banner {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.container {
+  padding-top: 100px;
+}
+button {
+  background: #f8df1f;
+  font-family: Roboto;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500px;
+  border-radius: 8px;
+}
+footer {
+  height: 100px;
+  background: #080801;
+}
+.col-8 {
+  background: #f3f3f3;
 }

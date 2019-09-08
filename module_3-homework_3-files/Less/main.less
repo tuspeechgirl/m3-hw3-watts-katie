@@ -1,4 +1,15 @@
 @import "variables";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+ul{
+  li{
+    span{
+      color: @red-primary;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+  }
+}
 
 
 nav{
@@ -6,7 +17,38 @@ nav{
   width: 2000px;
   padding:10px;
 }
-li{
+
+ul{
+  li{
   display: inline;
-  padding-right: 10px;
+  padding-right: 20px;
+  .button-style()
+    }
+  }
+
+.logo{
+  position: absolute;
+  z-index: 1;
+  top: 80px;
+      left: 80px;
+}
+#banner{
+  position: relative;
+      top: 0;
+      left: 0;
+    }
+.container{
+  padding-top: 100px;
+}
+
+button{
+.button-style();
+border-radius: 8px;
+}
+footer{
+  height: 100px;
+  background:@black-secondary;
+}
+.col-8{
+  background: @white-secondary;
 }
