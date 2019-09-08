@@ -7,6 +7,7 @@ ul{
       color: @red-primary;
       text-transform: uppercase;
       font-weight: 500;
+
     }
   }
 }
@@ -15,14 +16,16 @@ ul{
   li{
   display: inline;
   padding-right: 20px;
-  .button-style()
+  .button-style();
+  text-transform: none;
+
     }
   }
 
 h2{
   .or{
     text-transform: lowercase;
-    color: @black-secondary;
+    color: @black-text;
      }
   }
 
@@ -43,16 +46,17 @@ h2{
   .headings();
 }
 
+p{
+  .content();
+}
 
-
-
+/*other CSS*/
 
 nav{
   background: @yellow-primary;
   width: 2000px;
   padding:10px;
 }
-
 
 
 .container{
@@ -63,9 +67,4 @@ nav{
 #bob{
   background: @white-secondary;
   padding: 50px;
-}
-
-footer{
-  height: 100px;
-  background:@black-secondary;
 }

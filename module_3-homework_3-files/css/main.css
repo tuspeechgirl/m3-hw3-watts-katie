@@ -4,17 +4,23 @@
   font-family: Roboto;
   font-size: 18px;
   text-transform: uppercase;
-  font-weight: 500px;
+  font-weight: 500;
   padding: 10px;
   margin-bottom: 100px;
 }
 .headings {
   font-size: 30px;
-  color: #080801;
+  color: #050500;
   text-transform: uppercase;
+  font-family: Roboto;
+  font-weight: 500;
 }
-h2 .or {
+.content {
+  font-size: 18px;
+  font-weight: 400;
   text-transform: lowercase;
+  color: #050500;
+  font-family: Roboto;
 }
 /*example of nesting*/
 ul li span {
@@ -29,13 +35,14 @@ ul li {
   font-family: Roboto;
   font-size: 18px;
   text-transform: uppercase;
-  font-weight: 500px;
+  font-weight: 500;
   padding: 10px;
   margin-bottom: 100px;
+  text-transform: none;
 }
 h2 .or {
   text-transform: lowercase;
-  color: #080801;
+  color: #050500;
 }
 h2 span {
   color: #ee252f;
@@ -46,16 +53,26 @@ button {
   font-family: Roboto;
   font-size: 18px;
   text-transform: uppercase;
-  font-weight: 500px;
+  font-weight: 500;
   padding: 10px;
   margin-bottom: 100px;
   border-radius: 8px;
 }
 h2 {
   font-size: 30px;
-  color: #080801;
+  color: #050500;
   text-transform: uppercase;
+  font-family: Roboto;
+  font-weight: 500;
 }
+p {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: lowercase;
+  color: #050500;
+  font-family: Roboto;
+}
+/*other CSS*/
 nav {
   background: #f8df1f;
   width: 2000px;
@@ -67,8 +84,4 @@ nav {
 #bob {
   background: #f3f3f3;
   padding: 50px;
-}
-footer {
-  height: 100px;
-  background: #080801;
 }
