@@ -1,6 +1,6 @@
 @import "variables";
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
+/*example of nesting*/
 ul{
   li{
     span{
@@ -11,13 +11,6 @@ ul{
   }
 }
 
-
-nav{
-  background: @yellow-primary;
-  width: 2000px;
-  padding:10px;
-}
-
 ul{
   li{
   display: inline;
@@ -26,29 +19,53 @@ ul{
     }
   }
 
-.logo{
-  position: absolute;
-  z-index: 1;
-  top: 80px;
-      left: 80px;
-}
-#banner{
-  position: relative;
-      top: 0;
-      left: 0;
-    }
-.container{
-  padding-top: 100px;
-}
+h2{
+  .or{
+    text-transform: lowercase;
+    color: @black-secondary;
+     }
+  }
+
+h2{
+  span{
+    color:@red-primary;
+      }
+  }
+
+/*Example of Mix-ins*/
 
 button{
 .button-style();
 border-radius: 8px;
 }
+
+h2{
+  .headings();
+}
+
+
+
+
+
+nav{
+  background: @yellow-primary;
+  width: 2000px;
+  padding:10px;
+}
+
+
+
+.container{
+  padding-top: 100px;
+}
+
+
+#bob{
+  background: @white-secondary;
+  padding: 50px;
+}
+
 footer{
   height: 100px;
   background:@black-secondary;
-}
-.col-8{
-  background: @white-secondary;
 }
